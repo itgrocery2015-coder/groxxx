@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ความรู้เกี่ยวกับแมว</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #ff6347;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 0.5em 0;
+            margin-top: 56px; /* Adjust based on header height */
+            position: fixed;
+            width: 100%;
+            z-index: 999;
+        }
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+            transition: background-color 0.3s;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            padding: 120px 20px 20px; /* Adjust top padding for fixed header and nav */
+            max-width: 960px;
+            margin: auto;
+        }
+        section {
+            background-color: white;
+            margin-bottom: 20px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        h2 {
+            color: #ff6347;
+            border-bottom: 2px solid #ff6347;
+            padding-bottom: 5px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            display: block;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>โลกของเจ้าเหมียว</h1>
+    </header>
+
+    <nav>
+        <a href="#history">ประวัติ</a>
+        <a href="#breeds">สายพันธุ์</a>
+        <a href="#care">การดูแล</a>
+        <a href="#facts">เกร็ดความรู้</a>
+    </nav>
+
+    <div class="container">
+        <section id="history">
+            <h2>ประวัติความเป็นมาของแมว</h2>
+            <img src="https://via.placeholder.com/800x400?text=History+of+Cats" alt="ภาพประวัติแมว">
+            <p>แมว (Felis catus) ถูกเลี้ยงดูโดยมนุษย์มานานกว่า 9,500 ปีแล้ว โดยเชื่อว่าแมวป่าแอฟริกัน (Felis lybica) เป็นบรรพบุรุษของแมวบ้านในปัจจุบัน การค้นพบซากแมวที่เก่าแก่ที่สุดอยู่ที่เกาะไซปรัส ซึ่งแสดงให้เห็นถึงความสัมพันธ์ระหว่างมนุษย์และแมวมาตั้งแต่ยุคโบราณ แมวถูกใช้ในการควบคุมประชากรหนูในยุคเกษตรกรรม และค่อยๆ กลายเป็นสัตว์เลี้ยงคู่ใจของมนุษย์ในที่สุด</p>
+        </section>
+
+        <section id="breeds">
+            <h2>สายพันธุ์แมวที่น่าสนใจ</h2>
+            <img src="https://via.placeholder.com/800x400?text=Cat+Breeds" alt="ภาพสายพันธุ์แมว">
+            <p>แมวมีหลากหลายสายพันธุ์ทั่วโลก แต่ละสายพันธุ์มีลักษณะเฉพาะตัวที่แตกต่างกันไป ไม่ว่าจะเป็น รูปร่าง, ขน, และนิสัย ตัวอย่างสายพันธุ์ที่ได้รับความนิยมได้แก่:</p>
+            <ul>
+                <li><strong>แมวเปอร์เซีย:</strong> แมวขนยาวที่มีใบหน้ากลมแบนและมีนิสัยอ่อนโยน</li>
+                <li><strong>แมวสก็อตติช โฟลด์:</strong> มีเอกลักษณ์ที่หูพับลงมา เป็นแมวที่มีนิสัยน่ารักและขี้อ้อน</li>
+                <li><strong>แมวเมนคูน:</strong> เป็นแมวตัวใหญ่ที่มีขนหนาและมีนิสัยขี้เล่น</li>
+                <li><strong>แมววิเชียรมาศ (Siamese):</strong> แมวไทยที่มีสีขนเข้มบริเวณใบหน้า ขา และหาง มีนิสัยฉลาดและชอบเข้าสังคม</li>
+            </ul>
+        </section>
+
+        <section id="care">
+            <h2>การดูแลแมวเบื้องต้น</h2>
+            <img src="https://via.placeholder.com/800x400?text=Cat+Care" alt="ภาพการดูแลแมว">
+            <p>การเลี้ยงแมวต้องใส่ใจในหลายๆ ด้านเพื่อให้พวกเขามีสุขภาพดีและมีความสุข:</p>
+            <ul>
+                <li><strong>อาหาร:</strong> ควรให้อาหารที่มีสารอาหารครบถ้วนตามช่วงวัย และไม่ควรให้อาหารคนแก่แมว</li>
+                <li><strong>น้ำ:</strong> ควรมีน้ำสะอาดตั้งไว้ให้แมวได้ดื่มตลอดเวลา</li>
+                <li><strong>กระบะทราย:</strong> ควรทำความสะอาดกระบะทรายอย่างสม่ำเสมอ เพื่อสุขอนามัยที่ดี</li>
+                <li><strong>การเล่น:</strong> การเล่นกับแมวเป็นประจำช่วยลดความเครียดและสร้างความผูกพันกับเจ้าของ</li>
+                <li><strong>สุขภาพ:</strong> ควรพาแมวไปพบสัตวแพทย์เพื่อตรวจสุขภาพและฉีดวัคซีนตามกำหนด</li>
+            </ul>
+        </section>
+
+        <section id="facts">
+            <h2>เกร็ดความรู้เกี่ยวกับแมว</h2>
+            <img src="https://via.placeholder.com/800x400?text=Cat+Facts" alt="ภาพเกร็ดความรู้">
+            <p>แมวมีพฤติกรรมและสรีระที่น่าสนใจมากมาย เช่น:</p>
+            <ul>
+                <li>แมวสามารถมองเห็นได้ดีในที่แสงน้อย แต่ไม่สามารถมองเห็นในที่มืดสนิทได้</li>
+                <li>การนวดตัว (Kneading) เป็นพฤติกรรมที่แมวทำตั้งแต่เป็นลูกแมวเพื่อกระตุ้นการไหลของนม</li>
+                <li>แมวมีต่อมกลิ่นอยู่ที่แก้ม เท้า และหาง ซึ่งใช้ในการทำเครื่องหมายอาณาเขต</li>
+                <li>เสียงคราง (Purring) ของแมวไม่ได้หมายถึงความสุขเสมอไป บางครั้งก็หมายถึงความเครียดหรือความเจ็บปวดได้เช่นกัน</li>
+            </ul>
+        </section>
+    </div>
+
+</body>
+</html>
